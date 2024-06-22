@@ -1,0 +1,427 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper1 {
+    width: 1300px;
+    margin: auto;
+    position: relative;
+    background: #1f7da8;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 700;
+    float: left;
+    font-family: 'Open Sans',sans-serif;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fcd31e;
+    text-decoration: none;
+}
+
+a.tbl-yellow {
+    background: #fcd31e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-yellow:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+a.tbl-merah {
+    background: #ff0000;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: #adadad;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 30%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+table{
+    width: 100%;
+    font-size: 14px;
+    color: #444;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+.data_tagihan {
+    max-width: 900px;
+    border: 1px solid #222222;
+    background: #efefef33;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table>thead{
+    background-color: #364f6b;
+    color: whitesmoke;
+}
+
+table>thead th{
+    padding: 15px;
+}
+
+table th, table td{
+    border: 1px solid grey;
+    text-decoration: none;
+}
+
+.tambah_data {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+.form-set{
+    padding-bottom: 1.9em;
+    text-align: left;
+    line-height: 1.5;
+    display: block;
+}
+
+.form-set label{
+    padding-bottom: 6px;
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    display: block;
+}
+
+.form-set > div{
+    position: relative;
+    width: 320px;
+    min-width: 160px;
+}
+
+.form-set > div > input{
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+    width: 320px;
+    height: 34px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+}
+
+#sign-up-actions{
+    padding-bottom: 41px;
+}
+
+#sign-up-actions button{
+    width: 100%;
+    height: 44px;
+    border: #0077C5;
+    text-shadow: none;
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFF;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+    min-width: 100px;
+    display: inline-block;
+    padding: 6px 12px;
+    line-height: 1.428571429;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#btn-actions-text{
+    text-shadow: none;
+    font-weight: 400;
+    font-size: 1.125em;
+    color: #FFF;
+    line-height: 1.428571429;
+    white-space: nowrap;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn-submit{
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+}
+
+#sign-up-actions :hover {
+    background: #fcd31e;
+}
+
+.kembali {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.maps {
+    margin: auto;
+}
+
+textarea {
+    resize: none;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+
+    table>thead{
+        width: 100%;
+    }
+    
+    table>thead th{
+        width: 100%;
+    }
+    
+    table th, table td{
+        width: 100%;
+    }
+}
